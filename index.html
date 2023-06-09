@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Drag n Drop</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Drag n Drop</title>
 
-	<link rel="stylesheet" href="./style.css" />
-</head>
-<body>
-	<div class="container">
-	
-			<h3 class="succes-drop">Success full Drop ..</h3>
-		
-		<div class="wrapper">
-			<div class="box-frame">
-				<div class="drag-box" draggable="true"> <img src="./images/Management manual.png" class="img" alt=""></div>
-				<div class="drag-box" draggable="true"> <img src="./images/profile-logo.png" class="img" alt=""></div>
-				<div class="drag-box" draggable="true">Hello ! </div>
-			</div>
-			<div class="box-frame" id="drop-data"></div>
-		</div>
-		<button class="reset-btn" onclick="resetdrop()">Reset</button>
-	</div>
-	<script src="./javascript.js"></script>
-</body>
+        <link rel="stylesheet" href="./style.css"/>
+    </head>
+    <body>
+        <div class="container">
+
+            <h3 class="succes-drop">Success full Drop ..</h3>
+
+            <div class="wrapper">
+                <div class="box-frame">
+                    <div class="drag-box" draggable="true">
+                        <img src="./images/Management manual.png" class="img" alt=""></div>
+                    <div class="drag-box" draggable="true">
+                        <img src="./images/profile-logo.png" class="img" alt=""></div>
+                    <div class="drag-box" draggable="true">Hello !
+                    </div>
+                </div>
+                <div class="box-frame" id="drop-data"></div>
+            </div>
+            <button class="reset-btn" onclick="resetdrop()">Reset</button>
+        </div>
+        <script src="./javascript.js"></script>
+    </body>
 </html>
